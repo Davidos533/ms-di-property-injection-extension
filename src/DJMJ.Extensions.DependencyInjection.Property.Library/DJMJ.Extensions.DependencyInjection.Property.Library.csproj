@@ -18,6 +18,9 @@
     <Copyright>MIT Licence</Copyright>
     <Title>DJMJ.Extensions.DependencyInjection.Property</Title>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
