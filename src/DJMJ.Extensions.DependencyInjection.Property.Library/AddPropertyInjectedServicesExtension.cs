@@ -1,11 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using System;
-using System.Linq;
-using System.Reflection;
-
-namespace DJMJ.Extensions.DependencyInjection.Property
+﻿namespace Microsoft.Extensions.DependencyInjection
 {
+    using Microsoft.Extensions.DependencyInjection.Extensions;
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
     /// <summary>
     /// Adding property injectable dependecies
     /// </summary>

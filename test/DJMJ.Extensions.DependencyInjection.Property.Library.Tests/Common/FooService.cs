@@ -1,4 +1,6 @@
-﻿namespace DJMJ.Extensions.DependencyInjection.Property.Library.Tests.Common
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace DJMJ.Extensions.DependencyInjection.Property.Library.Tests.Common
 {
     /// <inheritdoc cref="IFooService"/>
     public class FooService : IFooService

@@ -4,8 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <Authors>DJMJ.Extensions.DependencyInjection.Property, David Medvedkov</Authors>
-    <Description>About
-Extension package for MS DI, that adds injection via properties by one method and one attribute</Description>
+    <Description>Extension package for MS DI, that adds injection via properties by one method and one attribute</Description>
     <Product>DJMJ.Extensions.DependencyInjection.Property</Product>
     <PackageId>DJMJ.Extensions.DependencyInjection.Property</PackageId>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
@@ -13,7 +12,7 @@ Extension package for MS DI, that adds injection via properties by one method an
     <RepositoryType>git</RepositoryType>
     <PackageTags>DI;DependencyInjection;MS;Property Injection;Property</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile></PackageReadmeFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/Davidos533/ms-di-property-injection-extension</PackageProjectUrl>
     <Copyright>MIT Licence</Copyright>
@@ -27,10 +26,6 @@ Extension package for MS DI, that adds injection via properties by one method an
       <PackagePath>\</PackagePath>
     </None>
     <None Include="..\..\LICENSE.txt">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

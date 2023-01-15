@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace DJMJ.Extensions.DependencyInjection.Property
+﻿namespace Microsoft.Extensions.DependencyInjection
 {
+    using System;
+
     /// <summary>
     /// Attribute for injectable property
     /// </summary>
