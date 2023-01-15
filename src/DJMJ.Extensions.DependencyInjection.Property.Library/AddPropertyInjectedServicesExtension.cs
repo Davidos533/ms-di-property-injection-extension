@@ -10,6 +10,8 @@
     /// </summary>
     public static class AddPropertyInjectedServicesExtension
     {
+        private readonly static string PROPERTY_NAME_OF_TYPE_IN_TARGET_IN_FACTORY_METHOD = "serviceImplementationType";
+
         /// <summary>
         /// Add property injectable depencies for already added services
         /// </summary>
@@ -32,6 +34,15 @@
                         ?.GenericTypeArguments
                         ?.LastOrDefault() ??
                     implementationInstance?.GetType();
+
+                // Getting type from factory method if it's not getted earlier
+                if (implementationType == typeof(object))
+                {
+                    implementationType = implementationFactory?.Target
+                        ?.GetType()
+                        ?.GetField(PROPERTY_NAME_OF_TYPE_IN_TARGET_IN_FACTORY_METHOD)
+                        ?.GetValue(implementationFactory?.Target) as Type;
+                }
 
                 if (implementationType is null)
                 {
