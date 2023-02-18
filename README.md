@@ -21,7 +21,7 @@
 ```csharp
 using Microsoft.Extensions.DependencyInjection;
 
-public class FooService
+public class FooService : IFooService
 {
     [Inject]
     public IBooService BooService { get; set; }
